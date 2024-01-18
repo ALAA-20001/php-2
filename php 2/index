@@ -1,0 +1,10 @@
+1- In PHP, the newline character \n is used to represent 
+a line break in strings, but it is not directly rendered as 
+a line break in HTML when displayed in a browser. To make \n work as 
+a line break in the browser when displaying PHP-generated content, you can use the nl2br() function.
+
+In this example, nl2br() converts the newline characters \n in the $text_with_newlines string into
+ <br> tags, so when the PHP script is executed and the output is displayed in a browser,
+  it will show the text with the line break
+
+
